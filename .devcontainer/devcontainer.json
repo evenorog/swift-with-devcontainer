@@ -5,10 +5,6 @@
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": "false",
             "username": "dev"
-        },
-        "ghcr.io/devcontainers/features/git:1": {
-            "version": "os-provided",
-            "ppa": "false"
         }
     },
     "runArgs": [
