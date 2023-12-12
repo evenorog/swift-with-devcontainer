@@ -1,11 +1,12 @@
 {
     "name": "Swift",
-    "image": "swift:5.9",
+    "image": "swift:latest",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": "false",
             "username": "dev"
-        }
+        },
+        "ghcr.io/swift-server-community/swift-devcontainer-features/swift-format:0": {}
     },
     "runArgs": [
         "--cap-add=SYS_PTRACE",
